@@ -1,0 +1,9 @@
+version: "3"
+services:
+  tts-page:
+    container_name: tts-page
+    image: tts-page:1.0.0
+    build:
+      context: .
+    ports:
+      - "7077:80"
