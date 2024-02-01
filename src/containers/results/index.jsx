@@ -8,6 +8,7 @@ export default function Results({ url }) {
       console.log(url);
       const audioElement = document.getElementById("audio-output");
       audioElement.src = url;
+
       //   audioElement.play();
     }
   }, [url]);
